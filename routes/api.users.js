@@ -1,9 +1,10 @@
 import express from "express";
 
-const apiUserRouter = express.Router()
+const apiUserRouter = express.Router();
 
 
 apiUserRouter.get("/users"); // Get all users
+
 
 apiUserRouter.get("/users/:uid"); // Get a user 
 
