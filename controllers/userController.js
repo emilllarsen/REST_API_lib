@@ -6,6 +6,8 @@ export function getAllUsers(req, res) {
   res.json({ Message: "This is all users!" });
 }
 
+
+
 export default {
   getAllUsers
 };
